@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-con{
+    background-color: indigo;
+    
+}
+.first-con{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: indigo;
+    
+    text-align: center;
+}
+.second-con{
+    width: 50%;
+    height: auto;
+    background-color: indigo;
+}
+.third-con{
+    width: 50%;
+    height: auto;
+    background-color: indigo;
+    margin-top: 50px;
+    margin-right: 20px;
+    
+}
+.second-con h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    max-width: 200px;
+    color: white;
+    font-size: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.second-con h4{
+    color: white;
+}
+.cbn p {
+    margin-left: 50px;
+    text-transform: capitalize;
+}
+@media (max-width:988px){
+    .first-con{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .third-con img {
+        width: 100%;
+        height: 100%;
+    }
+    .second-con{
+        width: 100%;
+    }
+    .third-con{
+        width: 100%;
+    }
+    .second-con h1{
+        width: 100%;
+    }
+    .second-con h4{
+        width: 100%;
+    }
+    .second-con p{
+        width: 100%;
+    }
+    .second-con .cbn p{
+        width: 100%;
+    }
+}
+@media (max-width:480px){
+    .first-con{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .third-con img {
+        width: 100%;
+        height: 100%;
+    }
+    .second-con{
+        width: 100%;
+    }
+    .third-con{
+        width: 100%;
+    }
+    .second-con h1{
+        width: 100%;
+    }
+    .second-con h4{
+        width: 100%;
+    }
+    .second-con p{
+        width: 100%;
+        
+    }
+    .second-con .cbn p{
+        
+        width: 100%;
+    }
+    .second-con .cbn p img {
+        display: none;
+    }
+}
+@media (max-width:460px){
+   .second-con h1{
+    font-size: 50px;
+    text-align: center;
+   }
+   .second-con h4{
+    font-size: 15px;
+    text-align: center;
+   }
+   .second-con .cbn p {
+    display: flex;
+    
+    font-size: 8px;
+    margin-right: 35px;
+    max-width: 200px;
+   }
+   .second-con .cbn p img{
+    width: 30px;
+    
+   }
+}
+.cards-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    
+    text-align: center;
+    gap: 20px;
+}
+.card-one{
+    width: 50%;
+    height: 90%;
+    background-color: lightseagreen;
+    margin-top: 50px;
+    border-radius: 50px;
+  
+}
+.card-two{
+    width: 50%;
+    height: 90%;
+    background-color: rgb(119, 238, 119);
+    margin-top: 50px;
+    border-radius: 50px;
+   
+}
+.card-header{
+    display: block;
+    color: rgb(11, 10, 10);
+    font-size: 35px;
+   
+}
+@media (max-width:680px) {
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-one{
+        width: 98%;
+        height: 100%;
+    }
+    .card-two{
+        width: 98%;
+        height: 100%;
+    }
+}
+@media (max-width:320px) {
+    .card-one{
+        font-size:2px;
+    }
+    .card-two{
+        font-size: 2px;
+    }
+}
+@media (max-width:300px) {
+    .cards-container{
+        font-size: 5px;
+    }
+}
+@media (max-width:320px){
+    .second-con .cbn p img{
+        width: 20px;
+        height: 20px;
+        image-resolution: 100%;
+        
+        
+
+    }
+    .second-con .cbn p {
+        max-height: 2px;
+        margin: 0 auto;
+    }
+}
+.con{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    
+    text-align: center;
+    justify-content: center;
+    
+    
+
+    
+}
+.box1{
+    width: 100%;
+    height: 50vh;
+    background-color: lightblue;
+    margin-top: 1vh;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.box1 h2 {
+    margin-top: 80px;
+}
+
+@media (max-width:850px){
+    .con{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .box1{
+        width: 100%;
+        height: 70vh;
+        
+    }
+    
+}
